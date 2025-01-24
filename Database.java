@@ -11,4 +11,7 @@ class Database {
         movies.add(new Movie("The Matrix", 1999));
         movies.add(new Movie("Psycho", 1960));
     }
+    public List<Movie> getMovies() {
+        return movies;
+    }
 }

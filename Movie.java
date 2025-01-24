@@ -8,4 +8,7 @@ class Movie {
     void printMovie() {
         System.out.println(title + " was released in " + year);
     }
+    public String getTitle() {
+        return title;
+    }
 }
